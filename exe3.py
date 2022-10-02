@@ -30,5 +30,5 @@ n = int(input('Введите число N>2:'))
 fib = list(range(2)) 
 for i in range(2,n+1): fib += [fib[i-1]+fib[i-2]] 
 fibn = [(-1)**(i+1)*fib[i] for i in range(1,n+1)] 
-for i in range(n): fib = [fibn[i]] + fib 
-print(fib)
+fibn.reverse()
+print(fibn + fib)
