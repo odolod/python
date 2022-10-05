@@ -45,9 +45,6 @@ with open('polynomial.txt', 'w') as data:
     data.write(f'{nums[len(nums)-1]} = 0')
 print("Результат в файле polynomial.txt")
 # Задание 4.5
-from collections import Counter
-
-
 with open('polynomial1.txt','r') as data:
     pol1 = data.readline()
 with open('polynomial2.txt','r') as data:
