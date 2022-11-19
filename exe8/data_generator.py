@@ -22,3 +22,4 @@ def generate(n):
     write_csv(data)
     write_json(data)
 
+
